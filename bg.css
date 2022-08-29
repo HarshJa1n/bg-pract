@@ -11,8 +11,7 @@ body {
   position: absolute;
   width: 0px;
   opacity: 0.75;
-  background-color: white;
-  box-shadow: #e9f1f1 0px 0px 20px 2px;
+  background-color: blue;
   opacity: 0;
   top: 100vh;
   bottom: 0px;
@@ -23,46 +22,55 @@ body {
 .x1 {
   animation: floatUp 4s infinite linear;
   transform: scale(1);
+  box-shadow: #b558ad 0px 0px 20px 2px;
 }
 .x2 {
   animation: floatUp 7s infinite linear;
   transform: scale(1.6);
   left: 15%;
+  box-shadow: #f35044 0px 0px 20px 2px;
 }
 .x3 {
   animation: floatUp 2.5s infinite linear;
   transform: scale(0.5);
   left: -15%;
+  box-shadow: #ffee01 0px 0px 20px 2px;
 }
 .x4 {
   animation: floatUp 4.5s infinite linear;
   transform: scale(1.2);
   left: -34%;
+  box-shadow: #f67844 0px 0px 20px 2px;
 }
 .x5 {
   animation: floatUp 8s infinite linear;
   transform: scale(2.2);
   left: -57%;
+  box-shadow: #c0a0d1 0px 0px 20px 2px;
 }
 .x6 {
   animation: floatUp 3s infinite linear;
   transform: scale(0.8);
   left: -81%;
+  box-shadow: #01b59c 0px 0px 20px 2px;
 }
 .x7 {
   animation: floatUp 7s infinite linear;
   transform: scale(1.6);
   left: 15%;
+  box-shadow: #019cd7 0px 0px 20px 2px;
 }
 .x8 {
   animation: floatUp 4.7s infinite linear;
   transform: scale(1.7);
   left: 62%;
+  box-shadow: #f35044 0px 0px 20px 2px;
 }
 .x9 {
   animation: floatUp 4.1s infinite linear;
   transform: scale(0.9);
   left: 85%;
+  box-shadow: #01b59c 0px 0px 20px 2px;
 }
 
 @keyframes fadeIn {
